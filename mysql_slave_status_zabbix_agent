@@ -1,0 +1,4 @@
+# Add to zabbix-agent.conf
+UserParameter=mysql.slave_sql_running,/usr/local/bin/mysql_slave_status Slave_SQL_Running
+UserParameter=mysql.slave_io_running,/usr/local/bin/mysql_slave_status Slave_IO_Running
+UserParameter=mysql.seconds_behind_master,/usr/local/bin/mysql_slave_status Seconds_Behind_Master
